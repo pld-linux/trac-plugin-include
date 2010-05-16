@@ -11,6 +11,7 @@ Source0:	%{plugin}macro.zip
 # Source0-md5:	9f706e733d205d4467ce6534772cb505
 URL:		http://trac-hacks.org/wiki/IncludeMacro
 BuildRequires:	python-devel
+BuildRequires:	unzip
 Requires:	trac >= %{trac_ver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
